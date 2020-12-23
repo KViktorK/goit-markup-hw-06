@@ -823,8 +823,14 @@ textarea {
   transition: var(--transition-fill);
 }
 .btn-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   outline: none;
   margin: 0px auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 .policy::before {
   content: "";
